@@ -4,20 +4,7 @@
 📂 Dataset Description
 The dataset used in this project consists of hotel booking records containing raw, unformatted information. It includes a mix of categorical, numerical, and date-based data that required significant cleaning to be useful for analysis.
 
-Column,Description,Data Type (Raw)
-BOOKING_ID,Unique identifier for each hotel reservation.,VARCHAR
-HOTEL_ID,Unique identifier for the hotel property.,VARCHAR
-HOTEL_CITY,The city where the hotel is located (required cleaning).,VARCHAR
-CUSTOMER_ID,Unique identifier for the guest.,VARCHAR
-CUSTOMER_NAME,Full name of the guest (included extra spaces).,VARCHAR
-CUSTOMER_EMAIL,Email address (contained invalid formats and nulls).,VARCHAR
-CHECK_IN_DATE,The date the guest was scheduled to arrive.,VARCHAR
-CHECK_OUT_DATE,The date the guest was scheduled to depart.,VARCHAR
-ROOM_TYPE,"Category of the room (Standard, Deluxe, Suite).",VARCHAR
-NUMBER_OF_GUESTS,Total number of people included in the booking.,VARCHAR
-TOTAL_AMOUNT,The price paid (contained negative values as errors).,VARCHAR
-CURRENCY,"The currency used for the transaction (USD, INR, EUR).",VARCHAR
-BOOKING_STATUS,"Status of the booking (Confirmed, Cancelled, No Show).",VARCHAR
+![Gender Distribution](images/Tables.png)
 
 🏗️ Architecture: Medallion Framework
 The project follows the industry-standard Medallion Architecture to ensure data quality:
@@ -45,13 +32,14 @@ Data Transformation: Complex SQL transformations, Case logic, and Aggregate func
 
 📊 Analytics Dashboard (Snowsight):
 
-Key Performance Indicators (Total Revenue, Total Bookings, Average Booking Value).
+Key Performance Indicators (Total Revenue, Total Bookings, Average Booking Value,Top 5 Revenue-Generating Cities,Monthly Booking & Revenue Trends,Booking Analysis by Room Type and Status.)
 
-Monthly Booking & Revenue Trends.
 
-Top 5 Revenue-Generating Cities.
+![Dashboard Overview](images/Dashboard Overview.png)
 
-Booking Analysis by Room Type and Status.
+
+![Dashboard Depth](images/Dashboard depth.png)
+
 
 🚀 Key Insights
 By utilizing a Snowflake-native approach, this project achieves a simplified architecture that reduces data movement and lowers cost-to-serve by keeping all processing within the cloud data warehouse.

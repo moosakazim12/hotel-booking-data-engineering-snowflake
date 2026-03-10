@@ -4,7 +4,7 @@
 📂 Dataset Description
 The dataset used in this project consists of hotel booking records containing raw, unformatted information. It includes a mix of categorical, numerical, and date-based data that required significant cleaning to be useful for analysis.
 
-![Gender Distribution](images/Tables.png)
+![Dataset](images/Tables.png)
 
 🏗️ Architecture: Medallion Framework
 The project follows the industry-standard Medallion Architecture to ensure data quality:

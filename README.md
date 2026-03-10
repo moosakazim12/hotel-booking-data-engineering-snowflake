@@ -35,10 +35,10 @@ Data Transformation: Complex SQL transformations, Case logic, and Aggregate func
 Key Performance Indicators (Total Revenue, Total Bookings, Average Booking Value,Top 5 Revenue-Generating Cities,Monthly Booking & Revenue Trends,Booking Analysis by Room Type and Status.)
 
 
-![Dashboard Overview](images/Dashboard Overview.png)
+![Dashboard Overview](images/Overview.png)
 
 
-![Dashboard Depth](images/Dashboard depth.png)
+![Dashboard Depth](images/depth.png)
 
 
 🚀 Key Insights
